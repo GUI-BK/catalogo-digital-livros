@@ -1,0 +1,90 @@
+[
+   {
+    "id": 1,
+    "titulo": "titulo do livro",
+    "autor": "autor do livro",
+    "categoria": "categoria do livro",
+    "status": "status do livro",
+    "paginas": 000,
+    "nota": 0.0,
+    "tags": ["tag1", "tag2", "tag3"],
+    "descricao": "descricao do livro."
+   },
+   {
+    "id": 2,
+    "titulo": "titulo do livro",
+    "autor": "autor do livro",
+    "categoria": "categoria do livro",
+    "status": "status do livro",
+    "paginas": 000,
+    "nota": 0.0,
+    "tags": ["tag1", "tag2", "tag3"],
+    "descricao": "descricao do livro."
+   },
+   {
+    "id": 3,
+    "titulo": "titulo do livro",
+    "autor": "autor do livro",
+    "categoria": "categoria do livro",
+    "status": "status do livro",
+    "paginas": 000,
+    "nota": 0.0,
+    "tags": ["tag1", "tag2", "tag3"],
+    "descricao": "descricao do livro."
+   },
+   {
+    "id": 4,
+    "titulo": "titulo do livro",
+    "autor": "autor do livro",
+    "categoria": "categoria do livro",
+    "status": "status do livro",
+    "paginas": 000,
+    "nota": 0.0,
+    "tags": ["tag1", "tag2", "tag3"],
+    "descricao": "descricao do livro."
+   },
+   {
+    "id": 5,
+    "titulo": "titulo do livro",
+    "autor": "autor do livro",
+    "categoria": "categoria do livro",
+    "status": "status do livro",
+    "paginas": 000,
+    "nota": 0.0,
+    "tags": ["tag1", "tag2", "tag3"],
+    "descricao": "descricao do livro."
+   }
+   {
+    "id": 6,
+    "titulo": "titulo do livro",
+    "autor": "autor do livro",
+    "categoria": "categoria do livro",
+    "status": "status do livro",
+    "paginas": 000,
+    "nota": 0.0,
+    "tags": ["tag1", "tag2", "tag3"],
+    "descricao": "descricao do livro."
+   }
+   {
+    "id": 7,
+    "titulo": "titulo do livro",
+    "autor": "autor do livro",
+    "categoria": "categoria do livro",
+    "status": "status do livro",
+    "paginas": 000,
+    "nota": 0.0,
+    "tags": ["tag1", "tag2", "tag3"],
+    "descricao": "descricao do livro."
+   }
+   {
+    "id": 8,
+    "titulo": "titulo do livro",
+    "autor": "autor do livro",
+    "categoria": "categoria do livro",
+    "status": "status do livro",
+    "paginas": 000,
+    "nota": 0.0,
+    "tags": ["tag1", "tag2", "tag3"],
+    "descricao": "descricao do livro."
+   }
+]
