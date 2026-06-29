@@ -4,6 +4,7 @@ import data from './data/livros.json'
 import CampoBusca from './components/CampoBusca.jsx'
 import FiltroCategoria from './components/FiltroCategoria.jsx'
 import FiltroStatus from './components/FiltroStatus.jsx'
+import ListaLivro from './components/ListaLivro.jsx'
 import './App.css'
 
 function App() {
@@ -54,16 +55,10 @@ function App() {
         />
   
         <hr />
-  
-        <h2>Itens encontrados ({livrosFiltrados.length})</h2>
-  
-        {livrosFiltrados.map((livro) => (
-          <div key={livro.id}>
-            <h3>{livro.titulo}</h3>
-            <p>Categoria: {livro.categoria}</p>
-            <p>Status: {livro.status}</p>
-          </div>
-        ))}
+      
+       <ListaLivro
+       livrosFiltrados={livrosFiltrados}
+       />
       </div>
     );
   }
