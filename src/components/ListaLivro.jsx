@@ -1,9 +1,15 @@
     import CardLivro from './CardLivro.jsx'
+    import EmptyState from './EmptyState.jsx'
 
 function ListaLivro({ livrosFiltrados }) {
+    if(livrosFiltrados.length == 0){
+        return(
+           <EmptyState/>
+        )
+    }else{
     return(
     <>
-    <h2>Itens encontrados ({livrosFiltrados.length})</h2>
+    <h2>Livros encontrados ({livrosFiltrados.length})</h2>
 
     <div className="lista-livro"> 
     {livrosFiltrados.map((livro) => (
@@ -16,10 +22,11 @@ function ListaLivro({ livrosFiltrados }) {
           descricao={livro.descricao}
           nota={livro.nota}
 
-          />
-        ))}
-    </div>
-    </>
-    )
+                />
+            ))}
+        </div>
+        </>
+        )
+    }
 }
 export default ListaLivro

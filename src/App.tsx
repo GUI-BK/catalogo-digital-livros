@@ -5,6 +5,7 @@ import CampoBusca from './components/CampoBusca.jsx'
 import FiltroCategoria from './components/FiltroCategoria.jsx'
 import FiltroStatus from './components/FiltroStatus.jsx'
 import ListaLivro from './components/ListaLivro.jsx'
+import PainelEstatistica from './components/PainelEstatistica.jsx'
 import './App.css'
 
 function App() {
@@ -37,6 +38,11 @@ function App() {
   
     return (
       <div className="App">
+        <PainelEstatistica
+        livrosCadastrados={data.length}
+        categoriasCadastradas={categorias.length}
+        />
+
         <CampoBusca
           valor={valorBusca}
           aoAlterar={setValorBusca}
