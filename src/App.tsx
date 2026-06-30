@@ -6,6 +6,8 @@ import FiltroCategoria from './components/FiltroCategoria.jsx'
 import FiltroStatus from './components/FiltroStatus.jsx'
 import ListaLivro from './components/ListaLivro.jsx'
 import PainelEstatistica from './components/PainelEstatistica.jsx'
+import Header from './components/Header.jsx'
+import Footer from './components/Footer.jsx'
 import './App.css'
 
 function App() {
@@ -38,6 +40,8 @@ function App() {
   
     return (
       <div className="App">
+        <Header/>
+
         <PainelEstatistica
         livrosCadastrados={data.length}
         categoriasCadastradas={categorias.length}
@@ -65,6 +69,8 @@ function App() {
        <ListaLivro
        livrosFiltrados={livrosFiltrados}
        />
+       
+       <Footer/>
       </div>
     );
   }
