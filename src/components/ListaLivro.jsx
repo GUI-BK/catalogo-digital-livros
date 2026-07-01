@@ -15,7 +15,7 @@ function ListaLivro({ livrosFiltrados }) {
     {livrosFiltrados.map((livro) => (
           <CardLivro
           key={livro.id}
-          imagem={''}
+          imagem={livro.img}
           titulo={livro.titulo}
           autor={livro.autor}
           categoria={livro.categoria}

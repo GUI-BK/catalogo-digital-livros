@@ -1,90 +1,98 @@
- [
-   {
+[
+  {
     "id": 1,
-    "titulo": "titulo do livro",
-    "autor": "autor do livro",
-    "categoria": "categoria do livro",
-    "status": "status do livro",
-    "paginas": 100,
-    "nota": 1.0,
-    "tags": ["tag1", "tag2", "tag3"],
-    "descricao": "descricao do livro."
-   },
-   {
+    "titulo": "Dom Casmurro",
+    "autor": "Machado de Assis",
+    "categoria": "Literatura Brasileira",
+    "status": "Quero ler",
+    "paginas": 256,
+    "nota": 4.9,
+    "tags": ["#realismo", "#clássico", "#vestibular"],
+    "descricao": "Narrado por Bentinho, o romance questiona a culpa de Capitu pelo adultério — e a confiabilidade do próprio narrador. Obra central do Realismo brasileiro e presença frequente na Fuvest.",
+    "img": "./src/assets/img/dom_casmurro.webp"
+  },
+  {
     "id": 2,
-    "titulo": "titulo do livro",
-    "autor": "autor do livro",
-    "categoria": "categoria do livro",
-    "status": "status do livro",
-    "paginas": 100,
-    "nota": 1.0,
-    "tags": ["tag1", "tag2", "tag3"],
-    "descricao": "descricao do livro."
-   },
-   {
+    "titulo": "As Meninas",
+    "autor": "Lygia Fagundes Telles",
+    "categoria": "Literatura Brasileira",
+    "status": "Lendo",
+    "paginas": 228,
+    "nota": 4.7,
+    "tags": ["#ditadura", "#feminino", "#fuvest2026"],
+    "descricao": "Três jovens dividem um pensionato durante a ditadura militar dos anos 1970. Uma das mais importantes obras da prosa brasileira contemporânea e leitura obrigatória da Fuvest 2026.",
+    "img": "./src/assets/img/as_meninas.webp"
+  },
+  {
     "id": 3,
-    "titulo": "titulo do livro",
-    "autor": "autor do livro",
-    "categoria": "categoria do livro",
-    "status": "status do livro",
-    "paginas": 100,
-    "nota": 1.0,
-    "tags": ["tag1", "tag2", "tag3"],
-    "descricao": "descricao do livro."
-   },
-   {
+    "titulo": "Canção para Ninar Menino Grande",
+    "autor": "Conceição Evaristo",
+    "categoria": "Literatura Brasileira",
+    "status": "Quero ler",
+    "paginas": 160,
+    "nota": 4.8,
+    "tags": ["#racismo", "#periferias", "#fuvest2026"],
+    "descricao": "Romance que mergulha nas violências do racismo estrutural e nas resistências cotidianas das populações negras e periféricas. Obra obrigatória da Fuvest 2026 e potente repertório para redação do ENEM.",
+    "img": "./src/assets/img/cancao_para_ninar_menino_grande.webp"
+  },
+  {
     "id": 4,
-    "titulo": "titulo do livro",
-    "autor": "autor do livro",
-    "categoria": "categoria do livro",
-    "status": "status do livro",
-    "paginas": 100,
-    "nota": 1.0,
-    "tags": ["tag1", "tag2", "tag3"],
-    "descricao": "descricao do livro."
-   },
-   {
+    "titulo": "Balada de Amor ao Vento",
+    "autor": "Paulina Chiziane",
+    "categoria": "Literatura Africana",
+    "status": "Lido",
+    "paginas": 192,
+    "nota": 4.6,
+    "tags": ["#moçambique", "#identidade", "#fuvest2026"],
+    "descricao": "Primeiro romance da literatura moçambicana escrito por uma mulher. Retrata conflitos entre tradição e modernidade no contexto pós-colonial africano. Obra obrigatória da Fuvest 2026 e da Unicamp.",
+    "img": "./src/assets/img/balada_de_amor_ao_vento.webp"
+  },
+  {
     "id": 5,
-    "titulo": "titulo do livro",
-    "autor": "autor do livro",
-    "categoria": "categoria do livro",
-    "status": "status do livro",
-    "paginas": 100,
-    "nota": 1.0,
-    "tags": ["tag1", "tag2", "tag3"],
-    "descricao": "descricao do livro."
-   },
-   {
+    "titulo": "Caminho de Pedras",
+    "autor": "Rachel de Queiroz",
+    "categoria": "Literatura Brasileira",
+    "status": "Lido",
+    "paginas": 144,
+    "nota": 4.5,
+    "tags": ["#feminismo", "#nordeste", "#fuvest2026"],
+    "descricao": "Publicado em 1937, o romance explora os dilemas de Noemi — mulher que questiona as normas sociais e o papel feminino em uma sociedade em transição. Obra obrigatória da Fuvest 2026.",
+    "img": "./src/assets/img/caminho_de_pedras.webp"
+  },
+  {
     "id": 6,
-    "titulo": "titulo do livro",
-    "autor": "autor do livro",
-    "categoria": "categoria do livro",
-    "status": "status do livro",
-    "paginas": 100,
-    "nota": 1.0,
-    "tags": ["tag1", "tag2", "tag3"],
-    "descricao": "descricao do livro."
-   },
-   {
+    "titulo": "Olhos d'Água",
+    "autor": "Conceição Evaristo",
+    "categoria": "Conto",
+    "status": "Lido",
+    "paginas": 136,
+    "nota": 4.8,
+    "tags": ["#escrevivência", "#negritude", "#unicamp"],
+    "descricao": "Coletânea de 15 contos que abordam a vida de mulheres negras, pobreza e discriminação racial a partir da perspectiva das margens. Obra obrigatória da Unicamp e referência para o ENEM.",
+    "img": "./src/assets/img/olhos_dagua.webp"
+  },
+  {
     "id": 7,
-    "titulo": "titulo do livro",
-    "autor": "autor do livro",
-    "categoria": "categoria do livro",
-    "status": "status do livro",
-    "paginas": 100,
-    "nota": 1.0,
-    "tags": ["tag1", "tag2", "tag3"],
-    "descricao": "descricao do livro."
-   },
-   {
+    "titulo": "A Vida Não É Útil",
+    "autor": "Ailton Krenak",
+    "categoria": "Ensaio",
+    "status": "Quero ler",
+    "paginas": 112,
+    "nota": 4.7,
+    "tags": ["#indígena", "#meio-ambiente", "#unicamp2025"],
+    "descricao": "Coletânea de conferências e entrevistas do pensador indígena Ailton Krenak sobre a relação entre humanidade, natureza e o adiamento do fim do mundo. Obra obrigatória da Unicamp 2025.",
+    "img": "./src/assets/img/a_vida_nao_e_util.webp"
+  },
+  {
     "id": 8,
-    "titulo": "titulo do livro",
-    "autor": "autor do livro",
-    "categoria": "categoria do livro",
-    "status": "status do livro",
-    "paginas": 100,
-    "nota": 1.0,
-    "tags": ["tag1", "tag2", "tag3"],
-    "descricao": "descricao do livro."
-   }
+    "titulo": "Dois Irmãos",
+    "autor": "Milton Hatoum",
+    "categoria": "Literatura Brasileira",
+    "status": "Lendo",
+    "paginas": 264,
+    "nota": 4.8,
+    "tags": ["#amazônia", "#identidade", "#fuvest"],
+    "descricao": "A rivalidade de dois irmãos gêmeos em Manaus revela tensões familiares, memória e a transformação da Amazônia ao longo do século XX. Uma das obras mais cobradas na história da Fuvest.",
+    "img": "./src/assets/img/dois_irmaos.webp"
+  }
 ]
