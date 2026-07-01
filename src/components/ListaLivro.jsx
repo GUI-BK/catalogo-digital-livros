@@ -1,5 +1,5 @@
-    import CardLivro from './CardLivro.jsx'
-    import EmptyState from './EmptyState.jsx'
+import CardLivro from './CardLivro.jsx'
+import EmptyState from './EmptyState.jsx'
 
 function ListaLivro({ livrosFiltrados }) {
     if(livrosFiltrados.length == 0){

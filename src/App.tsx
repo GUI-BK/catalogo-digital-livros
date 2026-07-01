@@ -8,6 +8,7 @@ import ListaLivro from './components/ListaLivro.jsx'
 import PainelEstatistica from './components/PainelEstatistica.jsx'
 import Header from './components/Header.jsx'
 import Footer from './components/Footer.jsx'
+import Hero from './components/Hero.jsx'
 import './App.css'
 
 function App() {
@@ -42,34 +43,38 @@ function App() {
       <div className="App">
         <Header/>
 
+        <Hero/>
+        
         <PainelEstatistica
         livrosCadastrados={data.length}
         categoriasCadastradas={categorias.length}
         />
 
-        <CampoBusca
-          valor={valorBusca}
-          aoAlterar={setValorBusca}
-        />
-  
-        <FiltroCategoria
-          categorias={categorias}
-          categoriasSelecionadas={categoriasSelecionadas}
-          setCategoriasSelecionadas={setCategoriasSelecionadas}
-        />
-  
-        <FiltroStatus
-          status={status}
-          statusSelecionados={statusSelecionados}
-          setStatusSelecionados={setStatusSelecionados}
-        />
+        <div className="filtros-barra">
+          <CampoBusca
+            valor={valorBusca}
+            aoAlterar={setValorBusca}
+          />
+
+          <FiltroCategoria
+            categorias={categorias}
+            categoriasSelecionadas={categoriasSelecionadas}
+            setCategoriasSelecionadas={setCategoriasSelecionadas}
+          />
+
+          <FiltroStatus
+            status={status}
+            statusSelecionados={statusSelecionados}
+            setStatusSelecionados={setStatusSelecionados}
+          />
+        </div>
   
         <hr />
       
        <ListaLivro
        livrosFiltrados={livrosFiltrados}
        />
-       
+
        <Footer/>
       </div>
     );

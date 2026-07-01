@@ -1,7 +1,8 @@
+
 function CardLivro({imagem, titulo, autor, descricao, nota, categoria}) {
     return( <article className="livro-img">
-        <img src={imagem} alt={titulo} />
-        <div className="card-div">
+            <img src={imagem} alt={titulo} />
+            <div className="card-div">
             <h3>{titulo}</h3>
             <h5>{autor}</h5>
             <span>{categoria}</span>
